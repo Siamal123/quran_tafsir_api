@@ -1,0 +1,122 @@
+# Altafsir.com Scraper .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+quran_tafsir.db
+test_quran.db
+
+# Log files
+*.log
+altafsir_scraper.log
+altafsir_import.log
+
+# Progress and temporary files
+altafsir_progress.json
+import_progress.json
+*.tmp
+*.temp
+
+# Scraped data (can be large)
+scraped_tafasir/
+*.json
+!test_*.json
+!sample_*.json
+
+# Configuration (may contain sensitive data)
+config_local.ini
+secrets.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Backup files
+*.bak
+*.backup
+
+# Compressed files (except samples)
+*.zip
+*.tar.gz
+*.rar
+!sample_data.zip
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files
+*.csv
+*.tsv
+large_dataset/
